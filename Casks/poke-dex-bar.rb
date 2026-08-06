@@ -2,10 +2,10 @@ cask "poke-dex-bar" do
   version "1.0.0"
   sha256 :no_check
 
-  url "https://github.com/leedg0831/PokeDexBar/releases/download/v#{version}/PokeDexBar.zip"
+  url "https://github.com/donky-ey/PokeDexBar/releases/download/v#{version}/PokeDexBar.zip"
   name "PokeDexBar"
   desc "Menu bar app turning AI coding token usage into a Pokemon collection"
-  homepage "https://github.com/leedg0831/PokeDexBar"
+  homepage "https://github.com/donky-ey/PokeDexBar"
 
   depends_on macos: ">= :sonoma"
 
@@ -19,7 +19,7 @@ cask "poke-dex-bar" do
 
   zap trash: [
     "~/Library/Application Support/PokeDexBar",
-    "~/Library/Preferences/io.github.leedg0831.pokedexbar.plist",
+    "~/Library/Preferences/io.github.donky-ey.pokedexbar.plist",
     "~/Library/Logs/PokeDexBar.log",
     "~/Library/Logs/PokeDexBar.old.log",
     "~/Library/Logs/PokeDexBar.crash.log",
