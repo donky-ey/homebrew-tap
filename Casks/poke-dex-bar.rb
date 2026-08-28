@@ -1,5 +1,5 @@
 cask "poke-dex-bar" do
-  version "1.11.0"
+  version "1.11.1"
   sha256 :no_check
 
   url "https://github.com/donky-ey/PokeDexBar/releases/download/v#{version}/PokeDexBar.zip"
