@@ -1,6 +1,6 @@
 cask "poke-dex-bar" do
-  version "1.18.2"
-  sha256 "adc15011835896a1d6c6908f3d51d9990ffad67d1d69019ae5f781a3ecab693a"
+  version "1.18.3"
+  sha256 "e17b07cd8dd08e13d2cac565df38bb9768922673c4119a94cf8d1eecc9155d32"
 
   url "https://github.com/donky-ey/PokeDexBar/releases/download/v#{version}/PokeDexBar.zip"
   name "PokeDexBar"
